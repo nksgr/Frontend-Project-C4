@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#react-select-3-listbox {
+  z-index: 2;
+}
+
+.form-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cart-container {
+  margin-top: 25px;
+  padding: 25px;
+  min-height: 65vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.productform {
+  width: 100%;
+  display: flex;
+}
+
+.home {
+  width: 90%;
+}
+.listing-container {
+  display: flex;
+  gap: 25px;
+}
+
+.dropdown {
+  align-self: flex-start;
+  width: 20%;
+}
+
+.card {
+  width: 380px;
+  height: 460px;
+  display: block;
+}
+
+.imageContainer {
+  height: 200px;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.desc {
+  min-height: 100px;
+  max-height: 150px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2px;
+}
+
+.toggle {
+  text-align: center;
+}

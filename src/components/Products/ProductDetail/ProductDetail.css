@@ -1,0 +1,21 @@
+.productDetailcontianer,
+.productDetailcard,
+.card-content {
+  display: flex;
+}
+
+.productDetailcontianer {
+  margin-top: 25px;
+
+  justify-content: center;
+}
+
+.productDetailcard {
+  width: 900px;
+  height: 380px;
+}
+
+.card-content {
+  padding: 6px;
+  align-items: center;
+}

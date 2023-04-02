@@ -1,0 +1,11 @@
+.container,
+.stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.stack {
+  background-color: whitesmoke;
+}
